@@ -1,0 +1,28 @@
+body
+
+{
+background-image: url("images/headphones.jpg");
+background-position: top center;
+background-size: 135% ;
+}
+
+h1 
+{
+color: white;
+    font-size: 100px;
+text-align: center;
+}
+
+h2
+{
+color: white;
+text-align: center;
+    font-size: 80px;
+}
+
+p
+{  
+color: white;
+text-align: center;
+    font-size: 40px;
+}
