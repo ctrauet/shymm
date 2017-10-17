@@ -1,0 +1,77 @@
+body {
+    background: white;
+    padding: 10;
+    margin: 10;
+}
+#bloc_page
+{
+    width: 300px;
+    /*margin: auto*/
+    top: 0;
+    left: 0;
+}
+
+#bloc_page img{
+    width: 300px;
+}
+#recherche {
+    width:208px;
+    height:30px;
+    padding: 12px;
+    background: black;
+    border-radius:2em;
+    display: inline;
+    }
+      
+    #recherche .loupe {
+    background:url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
+    width:24px;
+    padding-bottom: 8px;
+    }
+      
+    #recherche input {
+    outline:0;
+    border:0;
+    margin:0;
+    height:24px;
+    float:center;
+    }
+      
+    #recherche input[type=text] {
+    font:300 15px HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background:none;
+    width:180px;
+    color:rgb(161, 159, 159);
+    }
+
+.formulaire {
+    width: 100%;
+    text-align: center;
+}
+
+.onglet
+{
+        display:inline-block;
+        margin-left:3px;
+        margin-right:3px;
+        padding:3px;
+        border:2px solid rgb(2, 34, 219);
+        cursor:pointer;
+}
+.onglet a
+{
+        font:300 15px HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        color:#ffffff;
+        text-decoration:none;
+}
+.onglet_n
+{
+        background:#000000;
+        border-bottom:1px solid black;
+}
+.onglet_y
+{
+        background:#000000;
+        border-bottom:0px solid black;
+        padding-bottom:4px;
+}

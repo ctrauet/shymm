@@ -2,16 +2,30 @@
 <html>
         <title>SHYMM</title>
   <head>
-    <!-- Document metadata -->
-       <h1>SHYMM</h1>
-       <h2>Share your musical mood</h2>
-    <img src="" alt="">
+    <head>
+            <link rel="stylesheet" type="text/css" href="home.css">
+          </head>
   </head>
   <body>
-    <!-- Document content -->
-    <div align="center" style="text-align: center;">
-            <input type="search" placeholder="Effectuer une recherche..." name="Rechercher">
-            <br />    
-   </div>
+    <div id="bloc_page">
+        <img src="images/logoshymm.png" alt="Logo_page" title="Accueil" id="logo"/>
+    </div>
+    
+    <div class="formulaire">
+        <form id="recherche" method="post">
+            <input name="saisie" type="text" placeholder="Vous recherchez..." required />
+            <input class="loupe" type="submit" value="" />
+        </form>
+    </div>
+    
+    <div class="onglets_html">
+            <div class="onglets">
+                <div class="onglet_y onglet"><a href="Home.html">Home</a></div>
+                <div class="onglet_n onglet"><a href="Ajout.html">Ajout r&eacute;cent</a></div>
+                <div class="onglet_n onglet"><a href="top.html">Top list</a></div>
+            </div>
+         
+    </div>
+
   </body>
 </html>
