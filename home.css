@@ -1,7 +1,6 @@
 body {
-    background: white;
-    padding: 10;
-    margin: 10;
+    background: url("images/fond.png");
+    background-size: 1600px;
 }
 #bloc_page
 {
@@ -49,29 +48,22 @@ body {
     text-align: center;
 }
 
+.onglets
+{   top: 2;
+    right: 0;
+    position: fixed;
+  }
+
 .onglet
 {
         display:inline-block;
-        margin-left:3px;
-        margin-right:3px;
+        margin: 2px;
         padding:3px;
-        border:2px solid rgb(2, 34, 219);
+        border:2px solid black;
         cursor:pointer;
-}
-.onglet a
-{
-        font:300 15px HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-        color:#ffffff;
+        font:300 15px "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        
         text-decoration:none;
-}
-.onglet_n
-{
-        background:#000000;
-        border-bottom:1px solid black;
-}
-.onglet_y
-{
-        background:#000000;
-        border-bottom:0px solid black;
-        padding-bottom:4px;
+        color:rgb(0, 0, 0);
+        background:#ffffff;
 }
