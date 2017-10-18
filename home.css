@@ -48,22 +48,43 @@ body {
     text-align: center;
 }
 
-.onglets
-{   top: 2;
-    right: 0;
-    position: fixed;
+
+#navigation {
+    list-style: none;
+    margin: 2;
+    padding: 0;
+    float: right;
+
   }
 
-.onglet
-{
-        display:inline-block;
-        margin: 2px;
-        padding:3px;
-        border:2px solid black;
-        cursor:pointer;
-        font:300 15px "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-        
-        text-decoration:none;
-        color:rgb(0, 0, 0);
-        background:#ffffff;
-}
+  #navigation li {
+    background: rgb(255, 255, 255) ;
+    color: #fff ;
+    border: 1px solid rgb(0, 7, 102) ;
+    margin-bottom: 1px ;
+  }
+
+  #navigation li a {
+    display: block ;
+    background: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0) ;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 1em ;
+    text-align: center ;
+    text-decoration: none ;
+    padding: 5px ;
+  }
+
+  #navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+    background: rgb(0, 119, 255) ;
+    text-decoration: underline ;
+  }
+
+  #navigation li {
+    display: inline;
+  }
+
+  #navigation li {
+    float: left;
+    margin-right: 5px;
+  }
