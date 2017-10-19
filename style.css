@@ -30,6 +30,20 @@ font-size: 80px;
 font-style: italic
 }
 
+#bloc_page
+{
+    width: 300px;
+    /*margin: auto*/
+    top: 0;
+    left: 100;
+}
+
+#bloc_page img
+{
+    width:300px;
+    width: 250px;
+}
+
 
 p
 {
