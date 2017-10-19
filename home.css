@@ -1,7 +1,17 @@
 body {
     background: url("images/fond.png");
     background-size: 1600px;
+    background-attachment: fixed;
 }
+
+#haut {
+	background-color: #ffffff;
+	position:fixed;
+        top: 0; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
+        left: 0;
+        right: 0;
+}
+
 #bloc_page
 {
     width: 300px;
@@ -88,3 +98,33 @@ body {
     float: left;
     margin-right: 5px;
   }
+
+  div#contenu {
+    width:1200px;
+    height:540px;
+    background-color:rgb(43, 39, 51);
+    float:center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  div#contenu2 {
+    width:1200px;
+    height:540px;
+    background-color:rgb(143, 142, 140);
+    float:center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+  footer{
+    background:rgb(31, 42, 102);
+    position:flex;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+    }
