@@ -17,20 +17,6 @@ position: relative;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#p2 {line-height: 1.0;}
-
-
-
-
-p
-{
-color: white;
-text-align: center;
-font-size: 60px;
-border:2px double white;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 
 
 iframe {
@@ -39,11 +25,12 @@ margin-right: 20px;
 
 #haut 
 {
-    background-color: #ffffffce;
-	  position:fixed;
+    background-color: rgba(255, 255, 255, 0.7);
+	position:fixed;
     top: 0; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
     left: 0;
     right: 0;
+    height: 90px;
 }
 
 #bloc_page

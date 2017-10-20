@@ -1,5 +1,6 @@
 $(document).ready(function(){
-$("").toggle(10000);
+    $("body").hide();
+    $("body").fadeIn(1000);
 });
 
 $.getJSON("https://api.airtable.com/v0/appJBxSmyHMXbstSJ/musics?api_key=keyzOxUWBfRnJ4LUA",
