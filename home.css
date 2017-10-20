@@ -18,10 +18,11 @@ body {
     /*margin: auto*/
     top: 0;
     left: 0;
+    padding: 60;
 }
 
 #bloc_page img{
-    width: 300px;
+    width: 100px;
 }
 #recherche {
     width:208px;
@@ -100,31 +101,33 @@ body {
   }
 
   div#contenu {
-    width:1200px;
-    height:540px;
+    width:1000px;
+    height:500px;
     background-color:rgb(43, 39, 51);
     float:center;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 100px;
     }
   
   div#contenu2 {
-    width:1200px;
-    height:540px;
+    width:1000px;
+    height:500px;
     background-color:rgb(143, 142, 140);
     float:center;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 100px;
     }
 
 
-  footer{
-    background:rgb(31, 42, 102);
-    position:flex;
-    bottom:0;
-    width:100%;
-    padding-top:50px;
-    height:50px;
-    }
+    footer{
+      background:rgb(255, 255, 255);
+      position:flex;
+      bottom:0;
+      width:100%;
+      padding-top:50px;
+      height:50px;
+      }
