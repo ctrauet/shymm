@@ -1,4 +1,4 @@
-$.getJSON("https://api.airtable.com/v0/appJBxSmyHMXbstSJ/musics?api_key=keyzOxUWBfRnJ4LUA",
+$.getJSON("https://api.airtable.com/v0/appJBxSmyHMXbstSJ/musics?pageSize=6&api_key=keyzOxUWBfRnJ4LUA",
 function(data) {
 console.log(data);
 $.each(data.records, function(key,val){

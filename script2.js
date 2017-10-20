@@ -4,7 +4,7 @@ $(document).ready(function(){
 });
 
 
-$.getJSON("https://api.airtable.com/v0/appbd7eQPE8MGwj1F/musics?api_key=keywjwrnrrJFtjKhu",
+$.getJSON("https://api.airtable.com/v0/appJBxSmyHMXbstSJ/musics?pageSize=6&api_key=keyzOxUWBfRnJ4LUA",
 function(data) {
 console.log(data);
 $.each(data.records, function(key,val){
@@ -15,3 +15,4 @@ $("<iframe src='https://open.spotify.com/embed?uri="+val.fields['spotify-link']+
 }
 );
 
+"https://api.airtable.com/v0/appJBxSmyHMXbstSJ/musics?pageSize=5&api_key=keyzOxUWBfRnJ4LUA"
