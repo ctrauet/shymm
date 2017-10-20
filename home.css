@@ -125,7 +125,6 @@ body
     height:250px;
     background-color:rgba(221, 31, 17, 0.747);
     font-family:"Trebuchet MS",Arial,sans-serif;
-  
     float: center;
     text-align: center;
     margin-left: auto;
@@ -139,6 +138,7 @@ body
     width:1000px;
     height:250px;
     background-color:rgba(143, 142, 140, 0.774);
+    font-family:"Trebuchet MS",Arial,sans-serif;
     float:center;
     text-align: center;
     margin-left: auto;
