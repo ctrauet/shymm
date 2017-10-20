@@ -8,14 +8,18 @@ background-size: 1500px;
 .title1 {
 text-decoration: none; 
 color: white;
+
 }
 
 h1 
 {
-color: white;
+color:white;
 text-decoration:none;
 font-size: 100px;
-text-align: center;
+margin-left: 200px;
+display:inline-block;
+position: absolute;
+top:0;
 }
 
 #p2 {line-height: 1.0;}
@@ -32,16 +36,12 @@ font-style: italic
 
 #bloc_page
 {
-    width: 300px;
-    /*margin: auto*/
-    top: 0;
-    left: 100;
+    display:inline-block;margin-right:10px;
 }
 
 #bloc_page img
 {
     width:300px;
-    width: 250px;
 }
 
 
