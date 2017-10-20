@@ -12,3 +12,4 @@ $("<iframe src='https://open.spotify.com/embed?uri="+val.fields['spotify-link']+
 });
 }
 );
+

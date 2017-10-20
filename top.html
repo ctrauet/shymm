@@ -4,36 +4,49 @@
     <head>
         <title>Top List</title>
         <metacharset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="top.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="script.js"></script>     
     </head>
 
     <body>
 
-        <ul id="navigation">
-                <li><a href="home.html" title="Retour à la page d'accueil">Home</a></li>
-                <li><a href="#" title="aller à la page d'ajout r&eacute;cent">Ajouts r&eacute;cents</a></li>
-                <li><a href="top.html" title="aller à la page top list">Top list</a></li>
-        </ul>
-             
+            <div id="haut">
+                    <div id="haut_body">            
+            </div>
+                
 
-        <div id="bloc_page">
-            <img src="images/shymm.png" alt="Logo_page" title="Accueil" id="logo"/>
-        </div>
+            <ul id="navigation">
+                    <li><a href="index.html" title="Retour à la page d'accueil">Home</a></li>
+                    <li><a href="#" title="aller à la page d'ajout r&eacute;cent">Ajouts r&eacute;cents</a></li>
+                    <li><a href="top.html" title="aller à la page top list">Top list</a></li>
+            </ul>
+    
 
-        <div class="formulaire">
-            <form id="recherche" method="post">
-            <input name="saisie" type="text" placeholder="Vous recherchez..." required />
-            <input class="loupe" type="submit" value="" />
-            </form>
-        </div>
+            <div id="bloc_page">
+                    <img src="images/shymm.png" alt="Logo_page" title="Accueil" id="logo"/>
+            </div>  
 
+            <div class="formulaire">
+                    <form id="recherche" method="post">
+                    <input name="saisie" type="text" placeholder="Vous recherchez..." required />
+                    <input class="loupe" type="submit" value="" />
+            </div>
+     
+                <br>
+                <br>
+                <br>
 
         <H1> Top List de la semaine ! </H1>
 
-        <div class="row" id="musiques">
-        </div>
+                <br>
+                <br>
+                <br>
+                
+            <center>
+                <div class="row" id="musiques"></div>
+            </center>
+            
 
     </body>
 </html>
