@@ -1,0 +1,153 @@
+body 
+{
+    background: url("images/fond.png");
+    background-size: 1600px;
+    background-attachment: fixed;
+}
+
+
+h1 
+{
+color:white;
+text-decoration:none;
+font-size: 30px;
+margin-left: 570px;
+display:inline-block;
+position: relative; 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#p2 {line-height: 1.0;}
+
+
+
+
+p
+{
+color: white;
+text-align: center;
+font-size: 60px;
+border:2px double white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+iframe {
+margin-right: 20px;
+} 
+
+#haut 
+{
+    background-color: #ffffffce;
+	  position:fixed;
+    top: 0; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
+    left: 0;
+    right: 0;
+}
+
+#bloc_page
+{
+    width: 10px;
+    /*margin: auto*/
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+}
+
+#bloc_page img
+{
+    width: 100px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+#recherche 
+{
+    padding: 10px;
+    background: black;
+    border-radius:2em;
+    display: inline;
+    list-style: none;
+    margin-left: 300px;
+}
+      
+#recherche .loupe 
+{
+    background:url(http://www.larevuedekenza.fr/wp-content/themes/quarter/images/sidebar/loupe.png) no-repeat 0 0;
+    width:24px;
+    padding-bottom: 8px;
+}
+      
+#recherche input 
+{
+    outline:0;
+    border:0;
+    margin:0;
+    height:24px;
+    float:center;
+}
+      
+#recherche input[type=text] 
+{
+    font:300 15px HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background:none;
+    width:180px;
+    color:rgb(161, 159, 159);
+}
+
+.formulaire 
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 13px;
+}
+
+
+#navigation 
+{
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+    float: right;
+}
+
+#navigation li 
+{
+    background: rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255) ;
+    border: 2px solid rgb(187, 12, 12) ;
+    margin-bottom: 2px ;
+    border-radius: 2em;
+}
+
+#navigation li a 
+{
+    display: block ;
+    background: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0) ;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 1em ;
+    text-align: center ;
+    text-decoration: none ;
+    padding: 5px ;
+    border-radius: 2em;
+}
+
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+    background: rgb(209, 8, 8) ;
+    text-decoration: underline ;
+}
+
+#navigation li 
+{
+    display: inline;
+}
+
+#navigation li 
+{
+    float: left;
+    margin-right: 5px;
+}
+
