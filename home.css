@@ -25,16 +25,20 @@ body
 
 #bloc_page img
 {
-    width: 100px;
-}
+  width: 100px;
+  position: absolute;
+  left:0;
+  top:0;
+  }
+
 #recherche 
 {
-    width:208px;
-    height:30px;
-    padding: 12px;
+    padding: 10px;
     background: black;
     border-radius:2em;
     display: inline;
+    list-style: none;
+    margin-left: 300px;
 }
       
 #recherche .loupe 
@@ -64,7 +68,8 @@ body
 .formulaire 
 {
     width: 100%;
-    text-align: center;    
+    text-align: center;
+    margin-top: 13px;
 }
 
 
@@ -138,13 +143,3 @@ div#contenu
     padding: 100px;
 }
 
-
-footer
-{
-    background:rgb(255, 255, 255);
-    position:flex;
-    width:100%;
-    padding-top:0px;
-    height:50px;
-    text-align: center;
-}
