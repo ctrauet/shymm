@@ -98,3 +98,6 @@ border:2px double white;
     background-size: 100% 100%;
 }
 
+iframe {
+margin-right: 10px;
+}
